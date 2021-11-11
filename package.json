@@ -1,0 +1,35 @@
+{
+  "name": "bgm_directserver",
+  "version": "1.0.2",
+  "description": "ce projet d'API permettra de lancer le server npm sans avoir a configurer la machine virtuelle de firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weebstudio237/API-BG.git"
+  },
+  "author": "Phoenix ST",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weebstudio237/API-BG/issues"
+  },
+  "homepage": "https://github.com/weebstudio237/API-BG#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.8.0",
+    "firebase-admin": "^9.11.0",
+    "mongoose": "^6.0.2",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
